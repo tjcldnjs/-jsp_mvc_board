@@ -43,9 +43,15 @@ body {
 		<h2>JSP MVC 게시판 테스트 페이지</h2>
 		<ul class="nav-list">
 			<li class = "btn btn-primary"><a href="/t-board/user/signup"> 회원 가입 </a></li>
+<<<<<<< HEAD
 			<li class = "btn btn-primary"><a href="/t-board/user/signin"> 로그인 </a></li>
 			<li class = "btn btn-secondary"><a href="/t-board/user/logout"> 로그아웃 </a></li>
 			<li class = "btn btn-primary"><a href="/t-board/board/list"> 게시판 목록 </a></li>
+=======
+			<li class = "btn btn-primary"><a href="/t-board/user/signup"> 로그인 </a></li>
+			<li class = "btn btn-secondary"><a href="/t-board/user/signup"> 로그아웃 </a></li>
+			<li class = "btn btn-primary"><a href="/t-board/user/signup"> 게시판 목록 </a></li>
+>>>>>>> 0455e23d368c840b81af766036878246d1ad5981
 		</ul>
 	</div>
 </body>
