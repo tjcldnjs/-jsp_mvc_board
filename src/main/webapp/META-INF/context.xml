@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Context>
-	<Resource name="jdbc/MyDB"
+	<Resource name="jdbc/tboard"
 		auth="Container"
 		type="javax.sql.DataSource"
 		factory="com.zaxxer.hikari.HikariJNDIFactory"
@@ -10,7 +10,7 @@
 		connectionTimeout="30000"
 		idleTimeout="600000"
 		maxLifetime="1800000"
-		jdbcUrl="jdbc:mysql://localhost:3306/db_tboard?serverTimezone=Aisa/Seoul"
+		jdbcUrl="jdbc:mysql://localhost:3306/db_tboard?serverTimezone=Asia/Seoul"
 		driverClassName="com.mysql.cj.jdbc.Driver"
 		username="root"
 		password="asd123" />
